@@ -26,6 +26,7 @@ To deploy the City Job Position Counter application, you can use Cargo Shuttle, 
 1. Install Cargo Shuttle by running the following command:
 ```sh
 cargo install cargo-shuttle
+```
 
 2. Login to your Cargo Shuttle account by running the following command：
 ```sh
