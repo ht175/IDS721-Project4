@@ -31,22 +31,28 @@ cargo install cargo-shuttle
 2. Login to your Cargo Shuttle account by running the following command：
 ```sh
 cargo shuttle login
+```
 3. Authenticate your account by providing your API key:
 ```sh
 cargo shuttle login --api-key YOURAPI
+```
 4. Initialize your project by running the following command:
 ```sh
 cargo shuttle init
+```
 5. deploy: run the command to deploy the project
 ```sh
 cargo shuttle deploy
+```
 6. If the code is existed, use the following code to new a project
 ```sh
 cargo shuttle project new
+```
 7. Deploy and run
 6. If the code is existed, use the following code to new a project
 ```sh
 cargo shuttle deploy --allow-dirty
+```
 
 service is available at {project_name}.shuttleapp.rs.
 ![image](https://user-images.githubusercontent.com/122952572/231333896-8b7ab6be-a5a3-447c-b0f7-d3a2da7cfb4a.png)
